@@ -1,0 +1,36 @@
+body{
+    background-color:bisque;
+    font-family:標楷體;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .file{
+    
+    width:600px;
+    padding:60px;
+    text-align:center;
+  }
+  
+  .file input{
+    margin:10px auto;
+    background:none;
+  }
+  .file textarea{
+    margin:10px auto;
+    background:none;
+  }
+  
+  .file input[type = "submit"]:hover{
+    width:160px;
+    border:2px solid red;
+    color:red;
+  }
+  
+  .file input[type = "reset"]:hover{
+    width:160px;
+    border:2px solid red;
+    color:red;
+  }
+  

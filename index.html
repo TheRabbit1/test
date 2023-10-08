@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3作業</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <from method= "post"  action = "mailto:clg37358@xcoxc.com"  enctype="text/plain" class = "file"> 
+     
+     <h1 align = "center">史迪奇問卷調查表</h1>
+     <img src = stich.jpg alt = "史迪奇圖片">
+    <p align = "center">你是否喜歡史迪奇</p>
+       <fieldset>
+         <legend>訪客資料</legend>
+    暱稱<input type = "text" size = "40" name = "userName"><br>
+    E-mail信箱<input type = "text" size = "40" name = "userMail"><br>
+      </fieldset>
+    年齡:
+    <input type = "radio" name = "UserAge" value = "Age1">未滿10歲
+            <input type = "radio" name = "UserAge" value = "Age2">10~15歲
+            <input type = "radio" name = "UserAge" value = "Age3">16~20歲
+            <input type = "radio" name = "UserAge" value = "Age4">21~25歲
+            <input type = "radio" name = "UserAge" value = "Age5">26~30歲
+            <input type = "radio" name = "UserAge" value = "Age6">30歲以上<br>
+             請問是否喜歡史迪奇
+            <input type = "radio" name = "Userlike" value = "like">喜歡
+            <input type = "radio" name = "Userlike" value = "dislike">不喜歡<br>
+            理由:
+            <input type = "checkbox" name = "reason" value = "r1" >可愛
+            <input type = "checkbox" name = "reason" value = "r2" >帥氣<br>
+    <textarea name = "reasonBox" cols = "60" rows = "8">請輸入文字</textarea><br>
+    <select name = "user" size = "5" multiple>
+      <option value = "stich" selected >史迪奇
+      <option value = "roli" >羅莉
+      <option value = "star" >星星
+      <option value = "chichi">琪琪
+      <option value = "core" >核心
+      <option valee = "no " >無
+     </select><br>
+      <input type = "password" name = "pass" size = "20"><br>
+      <input type = "hidden" name = "Author" value ="AAAA ">     
+    </from>
+    </body>
+</html>
